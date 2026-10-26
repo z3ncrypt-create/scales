@@ -17,14 +17,14 @@
 
 ---
 
-## Overview
+* ## Overview
 
-Scales is an open-source product catalogue platform by Zencrypt specifically built for startups, ecommerces, and business developers. 
+Scales is an **open-source e-commerce website and product catalogue platform** by Zencrypt, designed for startups, e-commerce brands, and business developers.
 
-It provides two streamlined ways to showcase products and take orders without recurring platform fees:
+It functions as a lightweight, **self-hosted digital product storefront** equipped with an integrated **WhatsApp ordering system for small businesses**. It provides two ways to showcase inventory and receive customer orders without recurring monthly platform fees:
 
-* **Live Web Catalogue**: An online storefront connected to a Supabase database. Buyers browse products, filter categories, and order directly through WhatsApp with pre-filled details.
-* **Offline HTML Catalogue**: Download your entire inventory into a single, self-contained HTML file with embedded images. Share it directly through WhatsApp or host it statically without bandwidth overhead.
+* **Live Web Storefront**: A mobile-optimized online catalogue connected to Supabase. Customers browse your products, search inventory, and submit orders directly to your WhatsApp with pre-filled product details.
+* **Offline HTML Catalogue**: Export your full catalogue into a single self-contained HTML file with embedded images. Distribute it over WhatsApp or host it statically with zero bandwidth cost.
 
 ---
 
@@ -48,6 +48,9 @@ Unzip the package, configure your Supabase database keys, and launch.
   - Dedicated management portal secured with Supabase Authentication.
   - Add and edit products, update pricing, toggle stock, and reorder categories.
   - Customize store name, logo, WhatsApp number, and brand colors.
+* **WhatsApp Ordering System for Small Businesses**:
+  - One-click order button that prepares an organized order summary.
+  - Sends buyer inquiries and SKU information straight to your phone.
 * **Database Security**:
   - PostgreSQL Row Level Security (RLS) ensures full data protection.
 * **Image Optimization**:
